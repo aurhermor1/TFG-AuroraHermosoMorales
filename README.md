@@ -33,22 +33,7 @@ El objetivo principal es comparar distintos modelos de anotación celular bajo u
 - CellTypist
 - SingleCellNet
 
-## Librerías principales
 
-- Scanpy
-- AnnData
-- scikit-learn
-- PyTorch
-- DGL
-- DANCE
-- CellTypist
-
-## Métricas de evaluación
-
-- Accuracy
-- Balanced Accuracy
-- F1-score macro
-- ARI (Adjusted Rand Index)
 
 
 
@@ -88,7 +73,6 @@ Archivos principales:
 - barcodes/cells.tsv.
 
 
-
 ## Modelos evaluados
 - SVM (LinearSVC)
 - Random Forest
@@ -98,26 +82,6 @@ Archivos principales:
 
 
 
-## Métricas de evaluación
-- Accuracy
-- Balanced Accuracy
-- F1-score macro
-- ARI (Adjusted Rand Index)
-
-
-
-## Librerías principales utilizadas
-- Scanpy
-- AnnData
-- NumPy
-- SciPy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- PyTorch
-- DGL
-- TensorFlow (compatibilidad ACTINN)
 
 ---
 # Configuración del entorno
@@ -128,6 +92,7 @@ Los experimentos fueron desarrollados principalmente en Google Colab utilizando:
 - AnnData 0.10.8
 - PyTorch 2.2.2
 - scikit-learn 1.5.1
+- numpy 
 
 Debido a problemas de compatibilidad entre librerías, algunos modelos requirieron ajustes específicos de versiones y modificaciones parciales del código original, especialmente ACTINN y PySingleCellNet.
 
