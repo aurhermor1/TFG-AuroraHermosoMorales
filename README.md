@@ -94,13 +94,13 @@ Los experimentos fueron desarrollados principalmente en Google Colab utilizando:
 - scikit-learn 1.5.1
 - numpy 
 
-Debido a problemas de compatibilidad entre librerías, algunos modelos requirieron ajustes específicos de versiones y modificaciones parciales del código original, especialmente ACTINN y PySingleCellNet.
+
 
 ---
 
 # Ejecución
 Se recomienda reiniciar el entorno tras determinadas instalaciones de librerías para evitar conflictos de dependencias.
 
----
+
 
 
