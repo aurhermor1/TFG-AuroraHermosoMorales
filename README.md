@@ -6,7 +6,7 @@ El objetivo principal del trabajo consiste en estudiar y evaluar distintos model
 
 Los experimentos incluyen técnicas clásicas de Machine Learning, modelos basados en Deep Learning y distintas estrategias de procesamiento y análisis de datos transcriptómicos de célula única.
 
----
+
 
 # Esctructura del repositorio:
 Completar
