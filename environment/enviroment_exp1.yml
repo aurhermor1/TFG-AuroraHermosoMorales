@@ -1,1 +1,54 @@
+name: tfg-exp1-dance
 
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python
+  - python=3.11.13
+  - pip
+
+  # Base científica
+  - numpy=1.26.4
+  - scipy=1.12.0
+  - pandas=2.2.2
+
+  # Compatibilidad
+  - numba=0.60.0
+  - llvmlite=0.43.0
+
+  # Machine Learning
+  - scikit-learn=1.5.1
+
+  # Dependencias auxiliares
+  - pip:
+      # scRNA-seq
+      - anndata==0.10.8
+      - scanpy==1.10.1
+      - mudata==0.2.3
+
+      # Deep Learning
+      - torch==2.2.2
+      - torchvision==0.17.2
+
+      # Graph Learning
+      - dgl==1.1.3
+
+      # Análisis y almacenamiento
+      - h5py==3.11.0
+      - KDEpy==1.1.9
+      - statsmodels>=0.14
+      - tables
+
+      # Clustering
+      - igraph
+      - leidenalg
+      - scikit-misc
+
+      # Utilidades
+      - omegaconf
+      - openpyxl
+      - requests
+      - tifffile
+      - tqdm
