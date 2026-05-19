@@ -1,1 +1,16 @@
+id="vb0m58"
+# Python
+__pycache__/
+*.pyc
 
+# Jupyter
+.ipynb_checkpoints/
+
+
+# Modelos
+*.pth
+*.h5
+*.pkl
+
+
+.DS_Store
