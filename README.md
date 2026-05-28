@@ -8,8 +8,7 @@ Los experimentos incluyen técnicas clásicas de Machine Learning, modelos basad
 
 
 
-# Esctructura del repositorio:
-Completar
+
 
 
 ---
