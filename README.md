@@ -5,7 +5,8 @@ Este repositorio contiene los experimentos desarrollados del Trabajo Fin de Grad
 El objetivo principal del trabajo consiste en estudiar y evaluar distintos modelos de aprendizaje automático aplicados al problema de la anotación automática de tipos celulares a partir de datos de secuenciación de ARN de célula única (scRNA-seq).
 
 Los experimentos incluyen técnicas clásicas de Machine Learning, modelos basados en Deep Learning y distintas estrategias de procesamiento y análisis de datos transcriptómicos de célula única.
---
+
+---
 This repository contains the experiments conducted as part of the Bachelor's Thesis entitled:
 
 **"Machine Learning and Deep Learning Techniques for Cell Type Annotation in Single-Cell RNA-seq Data"**
